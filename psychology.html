@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychology - PEACE OF MIND</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Outfit', 'sans-serif'], script: ['Great Vibes', 'cursive'] },
+                    colors: { brand: { 500: '#0ea5e9', 600: '#0284c7' } }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Watermark Background -->
+    <div class="fixed inset-0 pointer-events-none z-0 flex items-center justify-center opacity-[0.03] overflow-hidden">
+        <h1 class="font-script text-[20vw] transform -rotate-12 text-slate-900 select-none">NadeeshA</h1>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="font-bold text-2xl tracking-tight text-gray-800">PEACE OF MIND<span
+                        class="text-brand-500">.</span></a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-brand-600 font-medium">Home</a>
+                    <a href="meditation.html" class="text-gray-600 hover:text-brand-600 font-medium">Meditation</a>
+                    <a href="counseling.html" class="text-gray-600 hover:text-brand-600 font-medium">Counseling</a>
+                    <a href="psychology.html" class="text-brand-600 font-medium">Psychology</a>
+                    <a href="contact.html"
+                        class="px-5 py-2 rounded-full bg-slate-900 text-white hover:bg-slate-800 transition-all">Contact
+                        Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="pt-32 pb-20 bg-gradient-to-br from-green-50 to-emerald-50 text-center">
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6" data-aos="fade-up">Understand the Mind</h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8" data-aos="fade-up" data-aos-delay="100">
+            Insights into human behavior, emotions, and cognitive processes.
+        </p>
+    </header>
+
+    <!-- Articles Grid -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Article 1 -->
+            <article class="group cursor-pointer" data-aos="fade-up">
+                <div class="overflow-hidden rounded-2xl mb-4">
+                    <img src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=2070&auto=format&fit=crop"
+                        class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                        alt="Brain">
+                </div>
+                <div class="text-sm font-semibold text-brand-500 mb-2">NEUROSCIENCE</div>
+                <h2 class="text-2xl font-bold text-gray-900 group-hover:text-brand-600 transition-colors">Plasticity:
+                    How Your Brain Changes</h2>
+                <p class="text-gray-600 mt-2">Discover the amazing ability of your brain to reorganize itself by forming
+                    new neural connections.</p>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="group cursor-pointer" data-aos="fade-up" data-aos-delay="100">
+                <div class="overflow-hidden rounded-2xl mb-4">
+                    <img src="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?q=80&w=2000&auto=format&fit=crop"
+                        class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                        alt="Emotions">
+                </div>
+                <div class="text-sm font-semibold text-purple-500 mb-2">EMOTIONAL INTELLIGENCE</div>
+                <h2 class="text-2xl font-bold text-gray-900 group-hover:text-purple-600 transition-colors">Recognizing &
+                    Managing Emotions</h2>
+                <p class="text-gray-600 mt-2">Tools to help you identify what you're feeling and respond in healthy
+                    ways.</p>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="group cursor-pointer" data-aos="fade-up" data-aos-delay="200">
+                <div class="overflow-hidden rounded-2xl mb-4">
+                    <img src="https://images.unsplash.com/photo-1456406110369-7e1a3ee41805?q=80&w=2069&auto=format&fit=crop"
+                        class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                        alt="Habits">
+                </div>
+                <div class="text-sm font-semibold text-orange-500 mb-2">BEHAVIOR</div>
+                <h2 class="text-2xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors">The Science
+                    of Habits</h2>
+                <p class="text-gray-600 mt-2">Why we do what we do, and how to change it for the better using
+                    psychology.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Fun Facts Section -->
+    <section class="py-16 bg-slate-900 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-12">Did You Know?</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="p-6 bg-slate-800 rounded-2xl" data-aos="flip-left">
+                    <div class="text-4xl font-bold text-brand-400 mb-2">60k</div>
+                    <div class="text-slate-400">Thoughts per day</div>
+                </div>
+                <div class="p-6 bg-slate-800 rounded-2xl" data-aos="flip-left" data-aos-delay="100">
+                    <div class="text-4xl font-bold text-nature-400 mb-2">20%</div>
+                    <div class="text-slate-400">More oxygen to brain</div>
+                </div>
+                <div class="p-6 bg-slate-800 rounded-2xl" data-aos="flip-left" data-aos-delay="200">
+                    <div class="text-4xl font-bold text-purple-400 mb-2">95%</div>
+                    <div class="text-slate-400">Subconscious action</div>
+                </div>
+                <div class="p-6 bg-slate-800 rounded-2xl" data-aos="flip-left" data-aos-delay="300">
+                    <div class="text-4xl font-bold text-rose-400 mb-2">21</div>
+                    <div class="text-slate-400">Days to form a habit</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white border-t border-slate-100 py-12 relative z-10">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-slate-500">&copy; 2024 Peace of Mind. <span class="font-script text-lg ml-2">App by
+                    NadeeshA</span></p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+
+</html>
